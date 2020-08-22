@@ -259,3 +259,84 @@ features
     color: #A5A5A5;
     margin-top: 72px;
 }
+
+/* projects */
+.projects {
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+}
+
+.projects-slide {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.project-text {
+    display: flex;
+    flex-basis: 60%;
+    flex-wrap: wrap;
+}
+
+.project-title {
+    flex-basis: 100%;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 41px;
+}
+
+.project-time,
+.project-cost {
+    flex-basis: 50%;
+    margin-bottom: 44px;
+}
+
+.project-time,
+.project-cost,
+.project-feedback {
+    display: flex;
+    align-items: flex-start;
+}
+
+.project-subtitle {
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 7px;
+
+}
+
+.project-paragraph {
+    margin: 0;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.project-icon {
+    margin-right: 16px;
+}
+
+.project-bullet {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #FFBB01;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.project-bullet-active {
+    background-color: #fff;
+}
+
+.project-pagination {
+    margin-top: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
